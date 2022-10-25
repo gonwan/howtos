@@ -5,6 +5,11 @@
 sudo yum groupinstall "GNOME Desktop"
 ```
 
+- Install mesa drivers:
+```
+sudo yum install mesa-dri-drivers
+```
+
 - Edit `/etc/ssh/sshd_config`, make sure it contains:
 ```
 X11Forwarding yes
